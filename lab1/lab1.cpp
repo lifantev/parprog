@@ -14,15 +14,15 @@ double tau = 0.01;
 double h = 0.01;
 
 double phi(double x) {
-	return 0;
+	return x;
 }
 
 double ksi(double t) {
-	return t * std::sin(t);
+	return t;
 }
 
 double f(double t, double x) {
-	return t * std::sin(x + t);
+	return 0;
 }
 
 
